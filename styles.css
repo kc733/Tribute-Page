@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-image: url("https://www.heritage.org/sites/default/files/styles/facebook_optimized/public/images/2020-11/GettyImages-1218413512.jpg?itok=-WMVkcoz");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgb(212, 175, 167);
+	background-blend-mode: soft-light;
+}
+
+#main {
+
+}
+
+#header {
+	max-width: 16%;
+	color: rgb(245, 227, 223);
+	margin: 10px auto;
+}
+
+#header p {
+	flex-wrap: nowrap;
+	font-family: Roboto, sans-serif;
+	font-size: 30px;
+	max-width: 60%;
+	margin: 10px auto;
+}
+
+h1 {
+	font-family: "Gill Sans Extrabold", sans-serif;
+	font-size: 50px;
+}
+
+div {
+	padding: 20px 0;
+}
+
+#img-div {
+	display: block;
+	align-content: center;
+	margin: 0 auto;
+}
+
+#image {
+	display: block;
+	max-width: 100%;
+	max-height: 60%;
+	margin: 0 auto;
+}
+
+#img-caption {
+	max-width: 10%;
+	display: block;
+	margin: 0 auto;
+	color: rgb(245, 227, 223);
+}
+
+#tribute-info {
+	max-width: 60%;
+	padding: 10px 0;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: Roboto, sans-serif;
+	background-color: rgba(212, 175, 167, 0.5);
+	background-blend-mode: luminosity;
+	border-radius: 5px;
+	color: rgb(59, 35, 35);
+}
+
+#tribute-info p{
+	margin: 10px 15px;
+}
+
+#source a, #source p {
+	text-decoration: none;
+	color: rgb(245, 227, 223);
+	display: inline-block;
+	padding: 5px;
+}
